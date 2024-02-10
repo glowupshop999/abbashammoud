@@ -1,0 +1,10 @@
+Description:
+1) product: The inventory system. Includes fields such as name,
+description, price, and category. Represents the product entity in the MongoDB.
+2)promotion: name, description, start and end dates, discount percentage,
+and a reference to the associated product. Represents the promotion entity in the MongoDB database.
+  3)order: detailing the user, products with quantities, total cost, order status, 
+and payment method. Captures the order entity in the MongoDB database.
+  4)user: name, email, role, and password. Represents the user entity in the MongoDB database.
+  5)inventory: specifying the product and its quantity. Captures the stock information
+    for products and their quantities in the MongoDB database.
